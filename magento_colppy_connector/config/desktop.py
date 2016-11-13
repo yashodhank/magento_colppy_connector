@@ -2,7 +2,7 @@ from frappe import _
 
 def get_data():
     return {
-        "MercadoLibre Sync": {
+        "Magento Colppy Sync": {
             "color": "#f1c40f",
             "icon": "octicon octicon-link",
             "label": _("Magento Colppy Sync"),
