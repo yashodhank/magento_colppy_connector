@@ -1,0 +1,3 @@
+frappe
+erpnext
+meli_connector

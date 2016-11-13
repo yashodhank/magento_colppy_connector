@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include magento_colppy_connector *.css
+recursive-include magento_colppy_connector *.csv
+recursive-include magento_colppy_connector *.html
+recursive-include magento_colppy_connector *.ico
+recursive-include magento_colppy_connector *.js
+recursive-include magento_colppy_connector *.json
+recursive-include magento_colppy_connector *.md
+recursive-include magento_colppy_connector *.png
+recursive-include magento_colppy_connector *.py
+recursive-include magento_colppy_connector *.svg
+recursive-include magento_colppy_connector *.txt
+recursive-exclude magento_colppy_connector *.pyc
