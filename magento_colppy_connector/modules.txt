@@ -1,1 +1,1 @@
-Meli Connector
+Magento Colppy Connector

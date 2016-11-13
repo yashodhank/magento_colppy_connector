@@ -5,7 +5,7 @@
     This API allows to access additional magento information
 
 """
-from magento.api import API
+from .api import API
 
 
 class Store(API):
@@ -50,4 +50,4 @@ class Magento(API):
         """
         Returns information about current magento
         """
-        return self.call('core_magento.info', [])
+        return self.call('core_.info', [])

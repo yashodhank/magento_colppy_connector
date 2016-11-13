@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-    magento.api
+    .api
 
     Generic API for magento
 
@@ -36,7 +36,7 @@ except ImportError:
 else:
     PROTOCOLS.append('rest')
 
-from magento.utils import expand_url, camel_2_snake
+from .utils import expand_url, camel_2_snake
 
 
 class ClientApiMeta(type):
@@ -75,7 +75,7 @@ class API(object):
 
         A typical example to extend the API for your subclass is given below::
 
-           from magento.api import API
+           from .api import API
 
             class Core(API):
 
@@ -95,7 +95,7 @@ class API(object):
 
         Example usage ::
 
-            from magento.api import API
+            from .api import API
 
             with API(url, username, password) as magento_api:
                 return magento_api.call('customer.list', [])
@@ -106,7 +106,7 @@ class API(object):
         If you want to use the API as a normal class, then you have to manually
         end the session. A typical example is below::
 
-            from magento.api import API
+            from .api import API
 
             api = API(url, username, password)
             api.connect()

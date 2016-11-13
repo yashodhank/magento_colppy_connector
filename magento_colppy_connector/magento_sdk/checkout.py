@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    magento.checkout
+    .checkout
 
     Checkout API for magento
     Allows you to manage shopping carts and the checkout process.

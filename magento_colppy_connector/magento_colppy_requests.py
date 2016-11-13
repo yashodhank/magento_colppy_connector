@@ -3,7 +3,6 @@ import frappe
 from frappe import _
 import json, math, time
 from .exceptions import MeliError
-from meli_sdk.meli import Meli
 from .utils import make_meli_log
 import base64, requests
 import requests

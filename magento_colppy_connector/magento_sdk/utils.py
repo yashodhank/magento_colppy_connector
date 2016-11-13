@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    magento.utils
+    .utils
 
     General purpose utility functions
 

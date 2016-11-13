@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    magento.catalog
+    .catalog
 
     Product Catalog API for magento
 
@@ -9,7 +9,7 @@
 
 import warnings
 
-from magento.api import API
+from .api import API
 
 
 class Category(API):
@@ -779,7 +779,7 @@ class ProductLinks(API):
 
 class ProductConfigurable(API):
     """
-    Product Configurable API for magento.
+    Product Configurable API for .
 
     These API endpoints only work if you have zikzakmedia's
     magento_webservices Magento plugin installed.

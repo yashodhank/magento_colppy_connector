@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    magento.sales
+    .sales
 
     Allows to export/import sales orders from/into Magento,
     to create invoices, shipments, credit memos
